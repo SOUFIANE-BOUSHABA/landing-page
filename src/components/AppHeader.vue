@@ -1,24 +1,61 @@
 <template>
-  <header class="bg-blue-500 p-4">
-    <nav class="flex items-center justify-between">
-      <div class="text-white text-2xl font-bold">
-        <a href="#">Travel</a>
+ <header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
       </div>
-      <ul class="flex space-x-4">
-        <li><a class="text-white hover:text-gray-300" href="#">Home</a></li>
-        <li><a class="text-white hover:text-gray-300" href="#">About</a></li>
-        <li><a class="text-white hover:text-gray-300" href="#">Gallery</a></li>
-        <li><a class="text-white hover:text-gray-300" href="#">Blog</a></li>
-        <li><a class="text-white hover:text-gray-300" href="#">Contact</a></li>
-      </ul>
-      <div>
-        <a href="#" class="text-white hover:text-gray-300">
-          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          </svg>
-        </a>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Background image -->
+  <div
+    class="p-5 text-center bg-image"
+    style="
+      background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+      height: 400px;
+    "
+  >
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Heading</h1>
+          <h4 class="mb-3">Subheading</h4>
+          <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+          >Call to action</a
+          >
+        </div>
       </div>
-    </nav>
-  </header>
+    </div>
+  </div>
+  <!-- Background image -->
+</header>
 </template>
 
 <script>
