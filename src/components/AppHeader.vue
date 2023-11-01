@@ -1,6 +1,6 @@
 <template>
 
-    <header class="shadow p-1 mb-5 bg-light">
+    <header class="shadow p-2 mb-5 bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand " href="#">YouMeubles</a>
@@ -62,9 +62,6 @@
         </nav>
     </header>
 
-
-
->>>>>>> c2f991027f85be99cc18e5f876c0c15914a17871
 </template>
 
 <script>
