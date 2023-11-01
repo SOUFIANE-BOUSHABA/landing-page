@@ -1,76 +1,95 @@
 <template>
 
-    <header class="shadow p-1 mb-5 bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand " href="#">YouMeubles</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item ml-3 mr-3">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item ml-3 mr-3">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item ml-3 mr-3">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item ml-3 mr-3">
-                            <a class="nav-link" href="#">Team</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                           
+<div class="bg-light py-lg-14 py-12 bg-cover ">
+        <!-- container -->
+        <div class="container ">
+        <!-- row -->
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-12">
+            <div>
+                <div class=" text-center text-md-start ">
+                <!-- heading -->
+                <h1 class=" display-2 fw-bold  mb-3">Find your dream job
+                    that you love to do.</h1>
+                <!-- lead -->
+                <p class="lead">The largest remote work community in the world. Sign up and post a job
+                    or create your developer profile.</p>
+                </div>
+                <div class="mt-8">
+                <!-- card -->
+                <div class="bg-white rounded-md-pill shadow rounded-4 mb-4">
+                    <!-- card body -->
+                    <div class="p-md-2 p-4">
+                    <!-- form -->
+                    <form class="row g-1">
+                        <div class="col-12 col-md-5">
 
-                            <div class="container">
-                                <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                                    </svg>
-                                </a>
-                                <!-- Modal -->
-                                    <div class="modal fade" id="myModal" role="dialog">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                      
-                                        <div class="modal-body">
-                                            <div class="form-outline">
-                                                <input type="text" id="typeText" class="form-control" />
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    </div>
-                            </div>
-                        </li>
-                        <li class="nav-item ml-3">
-                            <a class="nav-link text-black" href="#">Sign Up</a>
-                        </li>
-                        <li class="nav-item ml-3">
-                            <a class="nav-link bg-dark text-white  rounded" href="#">Login</a>
-                        </li>
-                    </ul>
+                        <!-- input -->
+                        <div class="input-group mb-2 mb-md-0 border-md-0  rounded-pill">
+                            <!-- input group -->
+                            <span class="input-group-text bg-transparent border-0 pe-1 ps-md-3 ps-md-0" id="searchJob"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-search text-muted" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                            </svg></span>
+                            <!-- search -->
+                            <input type="search" class="form-control  rounded-pill border-0 ps-3 form-focus-none" placeholder="Job Title" aria-label="Job Title" aria-describedby="searchJob">
+                        </div>
+
+                        </div>
+                        <div class="col-12 col-md-4">
+                        <!-- inpt group -->
+                        <div class="input-group mb-3 mb-md-0 border-md-0  rounded-pill">
+                            <span class="input-group-text bg-transparent border-0 pe-0 ps-md-0" id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt  text-muted" viewBox="0 0 16 16">
+                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                            </svg></span>
+                            <!-- search -->
+                            <input type="search" class="form-control rounded-pill  border-0 ps-3 form-focus-none" placeholder="Location" aria-label="Search Job" aria-describedby="location">
+                        </div>
+
+                        </div>
+                        <div class="col-12 col-md-3  text-end d-grid">
+                        <!-- button -->
+                        <button type="submit" class="btn btn-primary rounded-pill">Search</button>
+                        </div>
+                    </form>
+                    </div>
+
+                </div>
+
+                <!-- text -->
+                <span class=" fs-4 opacity-25">Currently listing 30,642 jobs from 5,717 companies</span>
                 </div>
             </div>
-        </nav>
-    </header>
+            </div>
+            <div class="offset-lg-1 col-lg-5 col-12 text-center">
+                    <div class="position-relative ">
+                            <img src="@/assets/images/job-hero-section.png" class="img-fluid ">
+                        <div class="position-absolute top-0 mt-7 ms-n6 ms-md-n6 ms-lg-n12 start-0">
+                            <img src="@/assets/images/job-hero-block-1.svg" class="img-fluid ">
+                        </div>
+                        <div class="position-absolute bottom-0 mb-12 me-n6 me-md-n4 me-lg-n12 end-0 ">
+                            <img src="@/assets/images/job-hero-block-2.svg" class="img-fluid ">
+                        </div>
+                        <div class="position-absolute bottom-0 mb-n4 ms-n1 ms-md-n4 ms-lg-n7 start-0">
+                            <img src="@/assets/images/job-hero-block-3.svg" class="img-fluid ">
+                        </div>
 
 
+                </div>
+                </div>
+        </div>
+        </div>
+    </div>
 
 </template>
 
 <script>
 export default {
-  name: 'AppHero',
+name: 'AppHero',
 };
 </script>
+
+
 
 <style scoped lang="css">
 
