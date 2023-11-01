@@ -64,12 +64,11 @@
 
 
 
->>>>>>> c2f991027f85be99cc18e5f876c0c15914a17871
 </template>
 
 <script>
 export default {
-  name: 'AppHeader',
+  name: 'AppHero',
 };
 </script>
 
