@@ -68,7 +68,7 @@
 
 <script>
 export default {
-  name: 'AppHeader',
+  name: 'AppHero',
 };
 </script>
 
