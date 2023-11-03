@@ -71,5 +71,9 @@ export default {
 </script>
 
 <style scoped lang="css">
-
+   header{
+       position:sticky;
+       top:0;
+       z-index:100;
+   }
 </style>
