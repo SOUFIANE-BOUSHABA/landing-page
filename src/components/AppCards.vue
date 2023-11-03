@@ -103,6 +103,7 @@ export default {
  }
  .card{
    transition:.5s;
+   cursor:pointer;
  }
  .card:hover{
    background:black;
