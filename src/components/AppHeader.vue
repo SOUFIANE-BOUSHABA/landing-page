@@ -1,6 +1,6 @@
 <template>
 
-    <header class="shadow p-1 mb-5 bg-light">
+    <header class="shadow p-2 mb-5 bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand " href="#">YouMeubles</a>
@@ -62,8 +62,6 @@
         </nav>
     </header>
 
-
-
 </template>
 
 <script>
@@ -73,5 +71,9 @@ export default {
 </script>
 
 <style scoped lang="css">
-
+   header{
+       position:sticky;
+       top:0;
+       z-index:100;
+   }
 </style>
